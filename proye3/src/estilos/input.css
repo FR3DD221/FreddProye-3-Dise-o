@@ -1,0 +1,61 @@
+.inputUser {
+    appearance: none;
+    border: none;
+    outline: none;
+    font-size: 130%;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 200;
+    border-bottom: 0.2em solid #B1D3E3;
+    background: rgba(#B1D3E3, 0.2);
+    border-radius: 0.2em 0.2em 0 0;
+    padding: 0.4em;
+    color: #B1D3E3;
+    width: 400px;
+    margin-bottom: 10%;
+    margin-top: 10%; 
+}
+
+.inputUser2 {
+    appearance: none;
+    border: none;
+    outline: none;
+    font-size: 130%;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 200;
+    border-bottom: 0.2em solid #B1D3E3;
+    background: rgba(#B1D3E3, 0.2);
+    border-radius: 0.2em 0.2em 0 0;
+    color: #B1D3E3;
+    width: 400px;
+    margin-bottom: 5%;
+    margin-top: 7%; 
+    letter-spacing: 1px;
+}
+
+.inputUser3 {
+    appearance: none;
+    border: none;
+    outline: none;
+    font-size: 130%;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 200;
+    border-bottom: 0.2em solid #B1D3E3;
+    background: rgba(#B1D3E3, 0.2);
+    border-radius: 0.2em 0.2em 0 0;
+    color: #B1D3E3;
+    width: 21.7%;
+    margin-top: 5%; 
+    letter-spacing: 1px;
+}
+
+.containerForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra horizontalmente */
+    justify-content: center; /* Centra verticalmente */
+    height: 75vh; /* Opcional: para que ocupe toda la altura de la pantalla */
+}
+
+.inputsCont {
+    text-align: center; /* Opcional: para centrar el texto dentro del formulario */
+}

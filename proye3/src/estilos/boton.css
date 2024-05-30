@@ -1,0 +1,441 @@
+.button_slide {
+    color: #000;
+    background-color: #FFF; /* Cambiar el color de fondo */
+    border: 2px solid #FFF;
+    border-radius: 10px;
+    padding: 10px 20px; /* Ajustar el padding */
+    font-family: "Lato Black", Lato, sans-serif;
+    font-size: 16px; /* Ajustar el tamaño de la fuente */
+    font-weight: bolder;
+    letter-spacing: 1px;
+    margin-right: 5%;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #FFF;
+    transition: ease-out 0.4s;
+    user-select: none;
+}
+
+.slide_left:hover {
+    box-shadow: inset 0 0 0 50px #193F6E;
+    color: #fff;
+}
+
+.botonColumna1 {
+    width: 100%; 
+    height: 100%; /* El alto se ajustará automáticamente según el contenido */
+    padding: 20px 40px; /* Tamaño grande de los botones */
+    margin: 10px; /* Espacio entre los botones */
+    font-size: 2em; /* Tamaño de la fuente en relación al tamaño del contenedor */
+    background-color: #2379DD; /* Color de fondo del botón */
+    color: white; /* Color del texto */
+    border-radius: 100%;
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    transition: transform 0.3s ease;
+    font-family: 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    opacity: 0.9;
+    border-radius: 10px;
+    user-select: none;
+}
+
+.botonColumna1:hover {
+    background-color: #2379DD; /* Cambia el color de fondo al pasar el cursor */
+    transform: translateY(-5px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); 
+    opacity: 1.0;
+}
+
+
+.button_submit {
+    color: #193F6E;
+    background-color: #FFF; /* Cambiar el color de fondo */
+    border: 2px solid #193F6E;
+    border-radius: 10px;
+    padding: 10px 20px; /* Ajustar el padding */
+    font-family: "Lato Black", Lato, sans-serif;
+    font-size: 16px; /* Ajustar el tamaño de la fuente */
+    font-weight: bolder;
+    letter-spacing: 1px;
+    margin-right: 5%;
+    margin-top: 5%;
+    cursor: pointer; 
+    box-shadow: inset 0 0 0 0 #193F6E;
+    transition: ease-out 0.4s;
+    user-select: none;
+}
+
+.submitSlide:hover {
+    box-shadow: inset 0 0 0 50px #193F6E;
+    color: #FFF;
+}
+
+
+.button_submit2 {
+    color: #193F6E;
+    background-color: #FFF; /* Cambiar el color de fondo */
+    border: 2px solid #193F6E;
+    border-radius: 10px;
+    padding: 10px 20px; /* Ajustar el padding */
+    font-family: "Lato Black", Lato, sans-serif;
+    font-size: 16px; /* Ajustar el tamaño de la fuente */
+    font-weight: bolder;
+    letter-spacing: 1px;
+    margin-right: 5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    cursor: pointer; 
+    box-shadow: inset 0 0 0 0 #193F6E;
+    transition: ease-out 0.4s;
+    user-select: none;
+    margin-left: 9%;
+}
+
+.submitSlide2:hover {
+    box-shadow: inset 0 0 0 50px #193F6E;
+    color: #FFF;
+}
+
+.botonSedan {
+    width: 90%; 
+    height: 43%; /* El alto se ajustará automáticamente según el contenido */
+    padding: 20px 40px; /* Tamaño grande de los botones */
+    margin: 10px; /* Espacio entre los botones */
+    font-size: 2em; /* Tamaño de la fuente en relación al tamaño del contenedor */
+    background-color: #2379DD; /* Color de fondo del botón */
+    color: #85929E; /* Color del texto */
+    border-radius: 100%;
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    transition: transform 0.3s ease;
+    font-family: bebas-neue, sans-serif;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    opacity: 0.9;
+    border-radius: 10px;
+    user-select: none;
+    background-image: url('../imgs/sedan.jpg');
+    background-size: contain;
+    background-position: center; /* Centra la imagen de fondo */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: end; /* Centra verticalmente el contenido */
+
+}
+
+.botonSedan:hover {
+    background-color: #2379DD; /* Cambia el color de fondo al pasar el cursor */
+    transform: translateY(-5px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); 
+    opacity: 1.0;
+}
+
+.botonCamioneta {
+    width: 90%; 
+    height: 43%; /* El alto se ajustará automáticamente según el contenido */
+    padding: 20px 40px; /* Tamaño grande de los botones */
+    margin: 10px; /* Espacio entre los botones */
+    font-size: 2em; /* Tamaño de la fuente en relación al tamaño del contenedor */
+    background-color: #2379DD; /* Color de fondo del botón */
+    color: #85929E; /* Color del texto */
+    border-radius: 100%;
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    transition: transform 0.3s ease;font-family: bebas-neue, sans-serif;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    opacity: 0.9;
+    border-radius: 10px;
+    user-select: none;
+    background-image: url('../imgs/camioneta.jpg');
+    background-size: contain;
+    background-position: center; /* Centra la imagen de fondo */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: end; /* Centra verticalmente el contenido */
+}
+
+.botonCamioneta:hover {
+    background-color: #2379DD; /* Cambia el color de fondo al pasar el cursor */
+    transform: translateY(-5px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); 
+    opacity: 1.0;
+}
+
+.botonTransporte {
+    width: 90%; 
+    height: 43%; /* El alto se ajustará automáticamente según el contenido */
+    padding: 20px 40px; /* Tamaño grande de los botones */
+    margin: 10px; /* Espacio entre los botones */
+    font-size: 2em; /* Tamaño de la fuente en relación al tamaño del contenedor */
+    background-color: #2379DD; /* Color de fondo del botón */
+    color: #90CAF9; /* Color del texto */
+    border-radius: 100%;
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    transition: transform 0.3s ease;font-family: bebas-neue, sans-serif;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    opacity: 0.9;
+    border-radius: 10px;
+    user-select: none;
+    background-image: url('../imgs/transporte.jpg');
+    background-size: contain;
+    background-position: center; /* Centra la imagen de fondo */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: end; /* Centra verticalmente el contenido */
+}
+
+.botonTransporte:hover {
+    background-color: #2379DD; /* Cambia el color de fondo al pasar el cursor */
+    transform: translateY(-5px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); 
+    opacity: 1.0;
+}
+
+
+.botonTraccion {
+    width: 167px;
+    height: 180px;
+    padding: 20px 40px; /* Tamaño grande de los botones */
+    margin: 10px; /* Espacio entre los botones */
+    font-size: 2em; /* Tamaño de la fuente en relación al tamaño del contenedor */
+    background-color: #ffff; /* Color de fondo del botón */
+    color: #000; /* Color del texto */
+    border-radius: 100%;
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    transition: transform 0.3s ease;font-family: bebas-neue, sans-serif;
+    font-weight: bold;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    border: 1px solid #000000;
+    border-radius: 10px;
+    user-select: none;
+    background-image: url('../imgs/traccion.png');
+    background-size: cover;
+    background-position: center; /* Centra la imagen de fondo */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: end; /* Centra verticalmente el contenido */
+}
+
+.botonTraccion:hover {
+    background-color: gray; /* Cambia el color de fondo al pasar el cursor */
+    transform: translateY(-5px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); 
+}
+
+.botonAsiento {
+    width: 170px;
+    height: 180px;
+    padding: 20px 40px; /* Tamaño grande de los botones */
+    margin: 10px; /* Espacio entre los botones */
+    font-size: 2em; /* Tamaño de la fuente en relación al tamaño del contenedor */
+    background-color: #ffff; /* Color de fondo del botón */
+    color: #000; /* Color del texto */
+    border-radius: 100%;
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    transition: transform 0.3s ease;font-family: bebas-neue, sans-serif;
+    font-weight: bold;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    border: 1px solid #000000;
+    border-radius: 10px;
+    user-select: none;
+    background-image: url('../imgs/asiento.png');
+    background-size: cover;
+    background-position: center; /* Centra la imagen de fondo */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: end; /* Centra verticalmente el contenido */
+}
+
+.botonAsiento:hover {
+    background-color: gray; /* Cambia el color de fondo al pasar el cursor */
+    transform: translateY(-5px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); 
+}
+
+.botonSonido {
+    width: 170px;
+    height: 180px;
+    padding: 20px 40px; /* Tamaño grande de los botones */
+    margin: 10px; /* Espacio entre los botones */
+    font-size: 2em; /* Tamaño de la fuente en relación al tamaño del contenedor */
+    background-color: #ffff; /* Color de fondo del botón */
+    color: #000; /* Color del texto */
+    border-radius: 100%;
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    transition: transform 0.3s ease;font-family: bebas-neue, sans-serif;
+    font-weight: bold;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    border: 1px solid #000000;
+    border-radius: 10px;
+    user-select: none;
+    background-image: url('../imgs/sonido.png');
+    background-size: cover;
+    background-position: center; /* Centra la imagen de fondo */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: end; /* Centra verticalmente el contenido */
+}
+
+.botonSonido:hover {
+    background-color: gray; /* Cambia el color de fondo al pasar el cursor */
+    transform: translateY(-5px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); 
+}
+
+
+.botonMotor {
+    width: 170px;
+    height: 180px;
+    padding: 20px 40px; /* Tamaño grande de los botones */
+    margin: 10px; /* Espacio entre los botones */
+    font-size: 2em; /* Tamaño de la fuente en relación al tamaño del contenedor */
+    background-color: #ffff; /* Color de fondo del botón */
+    color: #000; /* Color del texto */
+    border-radius: 100%;
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    transition: transform 0.3s ease;font-family: bebas-neue, sans-serif;
+    font-weight: bold;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    border: 1px solid #000000;
+    border-radius: 10px;
+    user-select: none;
+    background-image: url('../imgs/motor.png');
+    background-size: cover;
+    background-position: center; /* Centra la imagen de fondo */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: end; /* Centra verticalmente el contenido */
+}
+
+.botonMotor:hover {
+    background-color: gray; /* Cambia el color de fondo al pasar el cursor */
+    transform: translateY(-5px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); 
+}
+
+.botonTablero {
+    width: 170px;
+    height: 180px;
+    padding: 20px 40px; /* Tamaño grande de los botones */
+    margin: 10px; /* Espacio entre los botones */
+    font-size: 2em; /* Tamaño de la fuente en relación al tamaño del contenedor */
+    background-color: #ffff; /* Color de fondo del botón */
+    color: #000; /* Color del texto */
+    border-radius: 100%;
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    transition: transform 0.3s ease;font-family: bebas-neue, sans-serif;
+    font-weight: bold;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    border: 1px solid #000000;
+    border-radius: 10px;
+    user-select: none;
+    background-image: url('../imgs/tablero.png');
+    background-size: cover;
+    background-position: center; /* Centra la imagen de fondo */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: end; /* Centra verticalmente el contenido */
+}
+
+.botonTablero:hover {
+    background-color: gray; /* Cambia el color de fondo al pasar el cursor */
+    transform: translateY(-5px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); 
+}
+
+.botonExtras {
+    width: 170px;
+    height: 180px;
+    padding: 20px 40px; /* Tamaño grande de los botones */
+    margin: 10px; /* Espacio entre los botones */
+    font-size: 2em; /* Tamaño de la fuente en relación al tamaño del contenedor */
+    background-color: #ffff; /* Color de fondo del botón */
+    color: #000; /* Color del texto */
+    border-radius: 100%;
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    transition: transform 0.3s ease;font-family: bebas-neue, sans-serif;
+    font-weight: bold;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    border: 1px solid #000000;
+    border-radius: 10px;
+    user-select: none;
+    background-image: url('../imgs/extras.png');
+    background-size: cover;
+    background-position: center; /* Centra la imagen de fondo */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: end; /* Centra verticalmente el contenido */
+}
+
+.botonExtras:hover {
+    background-color: gray; /* Cambia el color de fondo al pasar el cursor */
+    transform: translateY(-5px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); 
+}
+
+.botonIncluido {
+    width: 170px;
+    height: 180px;
+    padding: 20px 40px; /* Tamaño grande de los botones */
+    margin: 10px; /* Espacio entre los botones */
+    font-size: 2em; /* Tamaño de la fuente en relación al tamaño del contenedor */
+    background-color: #ffff; /* Color de fondo del botón */
+    color: #000; /* Color del texto */
+    border-radius: 100%;
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    transition: transform 0.3s ease;font-family: bebas-neue, sans-serif;
+    font-weight: bold;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    border: 1px solid #000000;
+    border-radius: 10px;
+    user-select: none;
+    background-image: url('../imgs/incluido.png');
+    background-size: cover;
+    background-position: center; /* Centra la imagen de fondo */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: end; /* Centra verticalmente el contenido */
+}
+
+.botonIncluido:hover {
+    background-color: gray; /* Cambia el color de fondo al pasar el cursor */
+    transform: translateY(-5px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); 
+}
+
+.botonTrans {
+    width: 170px;
+    height: 180px;
+    padding: 20px 40px; /* Tamaño grande de los botones */
+    margin: 10px; /* Espacio entre los botones */
+    font-size: 2em; /* Tamaño de la fuente en relación al tamaño del contenedor */
+    background-color: #ffff; /* Color de fondo del botón */
+    color: #000; /* Color del texto */
+    border-radius: 100%;
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    transition: transform 0.3s ease;font-family: bebas-neue, sans-serif;
+    font-weight: bold;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    border: 1px solid #000000;
+    border-radius: 10px;
+    user-select: none;
+    background-image: url('../imgs/transmision.png');
+    background-size: cover;
+    background-position: center; /* Centra la imagen de fondo */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: end; /* Centra verticalmente el contenido */
+}
+
+.botonTrans:hover {
+    background-color: gray; /* Cambia el color de fondo al pasar el cursor */
+    transform: translateY(-5px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); 
+}
+
+.contenedorBotonLabel {
+    display: flex;
+    flex-direction: column; /* Apila los elementos verticalmente */
+    align-items: center; /* Centra los elementos horizontalmente */
+    margin: 10px;
+  }

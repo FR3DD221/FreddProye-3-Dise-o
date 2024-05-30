@@ -1,0 +1,50 @@
+.divEditar {
+    width: 35%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centra horizontalmente */
+    margin-top: 4%;
+    margin-left: 7%;
+}
+
+.divContenedorCentral {
+    display: flex;
+    flex-direction: column; /* Apila los elementos verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    justify-content: center; /* Centra verticalmente */
+    width: 100%; /* Ajusta el ancho del contenedor al 100% del viewport */
+}
+
+.divContenedorEd {
+    align-items: center;
+    justify-content: left;
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.divEditar2 {
+    width: 40%;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Centra verticalmente */
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 60px;
+}
+
+.sedanImg2 {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    display: block; /* Cambiado a display: block */
+    user-select: none;
+}
+
+
+

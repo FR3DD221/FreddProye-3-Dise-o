@@ -1,0 +1,47 @@
+.labelUser {
+    font-size: 150%;
+    font-family: "Lato Black", Lato, sans-serif;
+    text-align: center;
+    margin-left: auto;
+    user-select: none;
+    letter-spacing: 1px;
+}
+
+.labelUserEd {
+  font-size: 150%;
+  font-family: "Lato Black", Lato, sans-serif;
+  text-align: center;
+  user-select: none;
+  letter-spacing: 1px;
+}
+
+.label-olvidado-contrasena {
+    font-size: 140%;
+    color: #4b8ce4; /* Celeste */
+    text-decoration: none;
+    cursor: pointer;
+    margin-bottom: 10%; /* Separación desde abajo */
+    margin-left: -7%;
+    display: block; /* Convertirlo en un bloque para ocupar su propio espacio */
+    transition: color 0.3s ease;
+    letter-spacing: 1px;
+    user-select: none;
+  }
+  
+  .label-olvidado-contrasena:hover {
+    color: #2e6da4; /* Celeste más oscuro */
+  }
+
+.labelAutoOps {
+  font-family: "Lato Black", Lato, sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 25px;
+  line-height: 45px;
+  display: flex;
+  align-items: flex-end;
+  color: #000000;
+  user-select: none;
+}
+
+

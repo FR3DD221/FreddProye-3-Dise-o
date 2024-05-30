@@ -1,0 +1,56 @@
+.contenedorSlider {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #FFF;
+    background-image: url('../imgs/fondoAutos.jpg');
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    height: 100vh; /* Ajusta la altura al 100% del viewport */
+    background-size: cover; /* Ajusta el tamaño de la imagen para que cubra completamente el contenedor */
+    background-position: center; /* Centra la imagen de fondo */
+    opacity: 0.8; /* Ajusta la opacidad de la imagen de fondo */
+  }
+
+
+.contenedorSlider2 {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #D6EAF8;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    height: 100vh; /* Ajusta la altura al 100% del viewport */
+    opacity: 0.8; /* Ajusta la opacidad de la imagen de fondo */
+  }
+
+  .contenedorSlider3 {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #FFF;
+    background-image: url('../imgs/fondoPlanta.png');
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    height: 100vh; /* Ajusta la altura al 100% del viewport */
+    background-size: cover; /* Ajusta el tamaño de la imagen para que cubra completamente el contenedor */
+    background-position: center; /* Centra la imagen de fondo */
+    opacity: 0.8; /* Ajusta la opacidad de la imagen de fondo */
+  }
+
+  .contenedorForms {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contenedorPer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

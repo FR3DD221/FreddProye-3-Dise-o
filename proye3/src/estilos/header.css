@@ -1,0 +1,28 @@
+.main-header {
+    background: #044F81;
+    color: white;
+    height: 80px;
+    align-items: center;
+    display: flex;
+    padding: 0% 2%; 
+    width: 100%;
+	justify-content: center;
+    box-sizing: border-box; 
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.main-header2 {
+    background: #044F81;
+    color: white;
+    height: 80px;
+    align-items: center;
+    display: flex;
+    padding: 0% 2%; 
+    width: 100%;
+    margin-bottom: 3%;
+	justify-content: center;
+    box-sizing: border-box; 
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}

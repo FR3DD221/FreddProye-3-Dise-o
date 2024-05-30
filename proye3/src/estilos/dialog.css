@@ -1,0 +1,40 @@
+.dialogErr {
+    padding: 1rem 3rem;
+    background: #ea4444;
+    max-width: 400px;
+    padding-top: 2rem;
+    border-radius: 20px;
+    border: 0;
+    color: aliceblue;
+    box-shadow: 0 5px 30px 0 rgb(0 0 0 / 10%);
+    animation: fadeIn 1s ease both;
+  }
+  
+  .dialogErr::backdrop {
+    animation: fadeIn 1s ease both;
+    background: rgba(255, 25, 25, 0.4);
+    z-index: 2;
+    backdrop-filter: blur(20px);
+    pointer-events: auto; /* Deshabilita la interacción con los elementos del fondo */
+  }
+  
+  .dialogErr.visible::backdrop {
+    pointer-events: none; /* Habilita la interacción con los elementos del fondo */
+  }
+  
+  .dialogErr h2 {
+    font-weight: 600;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+  }
+  
+  .dialogErr p {
+    font-size: 1rem;
+    line-height: 1.3rem;
+    padding: 0.5rem 0;
+  }
+  
+  .dialogErr p a:visited {
+    color: rgb(var(--vs-primary));
+  }
+  
