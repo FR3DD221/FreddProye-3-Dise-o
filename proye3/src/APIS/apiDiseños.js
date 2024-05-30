@@ -1,18 +1,18 @@
 const express = require('express');
 const fs = require('fs');
-const cors = require('cors'); // Importa el middleware CORS
+const cors = require('cors'); 
 
 const app = express();
 const PORT = 3000;
 
-// Middleware para manejar solicitudes JSON
+
 app.use(express.json());
-// Middleware CORS
+
 app.use(cors({
-  origin: 'http://localhost:3001' // Permite solicitudes solo desde http://localhost:3001
+  origin: 'http://localhost:3001' 
 }));
 
-// Ruta para guardar el objeto en el JSON
+
 app.post('/guardarDiseno', (req, res) => {
     const nuevoObjeto = req.body;
 
@@ -75,7 +75,6 @@ app.get('/obtenerDiseno', (req, res) => {
             return;
         }
 
-        // Envía los datos JSON como respuesta
         res.json(objetos);
     });
 });
@@ -83,7 +82,7 @@ app.get('/obtenerDiseno', (req, res) => {
 
 app.delete('/eliminar/:key', (req, res) => {
     const { key } = req.params;
-    // Read the JSON file
+
     fs.readFile('disenos.json', 'utf8', (err, data) => {
         if (err) {
             console.error('Error reading file:', err);
@@ -91,7 +90,7 @@ app.delete('/eliminar/:key', (req, res) => {
             return;
         }
 
-        // Parse the JSON data
+
         let jsonData = {};
         try {
             jsonData = JSON.parse(data);
@@ -101,16 +100,14 @@ app.delete('/eliminar/:key', (req, res) => {
             return;
         }
 
-        // Check if the key exists in the JSON data
+
         if (!jsonData.hasOwnProperty(key)) {
             res.status(404).send('Data with the provided key not found');
             return;
         }
 
-        // Delete the data associated with the key
         delete jsonData[key];
 
-        // Write the updated JSON data back to the file
         fs.writeFile('disenos.json', JSON.stringify(jsonData), (err) => {
             if (err) {
                 console.error('Error writing file:', err);
@@ -123,7 +120,6 @@ app.delete('/eliminar/:key', (req, res) => {
     });
 });
 
-// Ruta para guardar el objeto Bridge en el archivo fabricas.json
 app.post('/guardarFabrica', (req, res) => {
     const nuevoBridge = req.body;
 
@@ -192,10 +188,9 @@ app.delete('/eliminarPlantaPorNombre/:nombrePlanta', (req, res) => {
             return;
         }
 
-        // Filtrar las fabricas para eliminar la planta con el nombre proporcionado
         const fabricasActualizadas = fabricas.filter(fabrica => fabrica.planta.nombre !== nombrePlanta);
 
-        // Escribir las fabricas actualizadas de vuelta al archivo JSON
+
         fs.writeFile('fabricas.json', JSON.stringify(fabricasActualizadas), (err) => {
             if (err) {
                 console.error('Error al escribir en el archivo JSON:', err);
